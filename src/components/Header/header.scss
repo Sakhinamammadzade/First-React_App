@@ -1,0 +1,36 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .logo{
+        width: 10%;
+        img{
+            width: 100%;
+        }
+    }
+    .navmenu{
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                list-style: none;
+                font-weight: 600;
+                font-size: 20px;
+                cursor: pointer;
+             
+            }
+        }
+    }
+    .join{
+        button{
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+
+            background-image: linear-gradient(135deg,#a040a1 0,#1bb7ec 100%);
+            color: #fff;
+        }
+    }
+}
